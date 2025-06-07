@@ -32,13 +32,13 @@ ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox",
 // change it to 'same' if you want to resend deleted message in same chat     
 MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
-MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/frns4k.jpg",
+MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "http://goatbiin.onrender.com/pHL44bpvc.jpg",
 // add custom menu and mention reply image url
-PREFIX: process.env.PREFIX || ".",
+PREFIX: process.env.PREFIX || "-",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "𝐌𝐄𝐆𝐀𝐋𝐎𝐃𝐎𝐍-𝐌𝐃",
+BOT_NAME: process.env.BOT_NAME || "𝗩𝗢𝗟𝗗𝗜𝗚𝗢-𝐌𝐃",
 // add bot name here for menu
-STICKER_NAME: process.env.STICKER_NAME || "put your name",
+STICKER_NAME: process.env.STICKER_NAME || "𝗩𝗢𝗟𝗗𝗜𝗚𝗢 𝗔𝗧𝗢𝗠𝗜𝗖",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custom emoji react    
@@ -46,15 +46,15 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // choose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links without removing member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "50948702213",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "2250546841168",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "ᴅʏʙʏ ᴛᴇᴄʜ",
+OWNER_NAME: process.env.OWNER_NAME || "𝗩𝗼𝗹𝗱𝗶𝗴𝗼 𝗮𝗻𝗼𝘀",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴇɢᴀʟᴏᴅᴏɴ ᴍᴅ*",
 // bot description    
-ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/frns4k.jpg",
+ALIVE_IMG: process.env.ALIVE_IMG || "http://goatbiin.onrender.com/pHL44bpvc.jpg",
 // image for alive msg
-LIVE_MSG: process.env.LIVE_MSG || "> *MEGALODON-MD*⚡",
+LIVE_MSG: process.env.LIVE_MSG || "> *VOLDIGO-MD*⚡",
 // alive msg content
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
@@ -80,7 +80,7 @@ AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // show typing status   
 READ_CMD: process.env.READ_CMD || "false",
 // mark commands as read 
-DEV: process.env.DEV || "50934960331",
+DEV: process.env.DEV || "2250546841168",
 // your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "true",
 // anti view once 
